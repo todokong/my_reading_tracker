@@ -1,0 +1,84 @@
+.book-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.book-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.book-title {
+  color: #333;
+  font-size: 1.3rem;
+  flex: 1;
+  word-break: keep-all;
+}
+
+.book-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.edit-btn:hover {
+  background: #f0f0f0;
+}
+
+.delete-btn:hover {
+  background: #ffebee;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.book-author,
+.book-date,
+.book-rating {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.book-rating {
+  font-size: 1.1rem;
+}
+
+.book-review {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 3px solid #667eea;
+  margin-top: 10px;
+}
+
+.book-review p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
