@@ -1,0 +1,18 @@
+# 의존성
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 환경 변수
+.env
+client/.env
+server/.env
+.env.local
+
+# 빌드
+client/build/
+server/dist/
+
+# 기타
+.DS_Store
+*.log
